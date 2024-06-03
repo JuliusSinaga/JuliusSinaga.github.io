@@ -1,0 +1,57 @@
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html, body{
+	height: 100%;
+}
+
+.open {
+	background: #ff1dbf;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	z-index: 1;
+	overflow-y: hidden;
+	transition: 0.5s all ease;
+}
+
+.mail {
+	margin-top: -75px!!important;
+	width: 300px;
+}
+
+.card {
+	border-radius: 15px;
+	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+video.w-100.h-auto {
+	width: 100%;
+	height: auto;
+  }
+
+.confetti {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+h4 {
+	padding: 0;
+	margin: 0;
+}
+
+#content-section {
+	overflow-x: hidden;
+}
